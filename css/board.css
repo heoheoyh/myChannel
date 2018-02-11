@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html{
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 15px;
+}
+.boardArticle {width:600px;   margin-left: 300px;}
+.boardArticle h3{text-align: center;}
+
+/* 글목록 */
+
+#boardList table {width:600px}
+
+#boardList th {padding:5px 0;border-top:2px solid #666;border-bottom:2px solid #666;}
+#boardList td {padding:8px 0;border:1px solid #666}
+
+#boardList .no {display: none;}
+#boardList .title {width: 100px; text-align: center;}
+#boardList .title a {text-decoration: none; color:black;}
+#boardList .title a:hover {text-decoration: none;  background-color:green; color: white;}
+
+
+#boardList .title2 {width: 100px; text-align: center;}
+#boardList .title2 a{text-decoration: none; color: black;}
+#boardList .title2 :hover {text-decoration: none; background-color:blue; color: white;}
+#boardList .author {display: none;}
+#boardList .date {display: none;}
+#boardList .hit {display: none;}
+
+#boardList .btnSet{float: right;}
+#boardList .btnSet a {text-align:center; text-decoration: none; font-size: 18px; color: black;}
+#boardList .btnSet :hover{text-align:center; text-decoration: none; font-size: 18px; color: white; background-color: black;}
+/* 글쓰기 */
+
+#boardWrite table {width:600px;}
+#boardWrite th {width:100px;padding:5px;text-align:right;vertical-align: top}
+#boardWrite td {width:620px;padding:5px}
+
+#boardWrite #bID {display: none;}
+#boardWrite #bPassword {display: none;}
+#boardWrite #bTitle {width:300px; height: 20px; font-size: 15px;}
+#boardWrite #bContent {width:400px; height: 30px; font-size: 15px;}
+
+#boardWrite button{font-size: 15px;}
+#boardWrite .btnSet{float: right; }
+#boardWrite .btnSet a {text-align:center; text-decoration: none; font-size: 15px; color: black;}
+#boardWrite .btnSet :hover{text-align:center; text-decoration: none; font-size: 15px; color: white; background-color: black;}
+
+/* 글읽기 */
+
+#boardView #boardTitle {border-bottom: 2px solid #333}
+#boardView #boardInfo {margin: 10px 0}
+#boardView #boardContent {margin: 10px 0}
+#boardView .btnSet {text-align:right}
+
+/* 글삭제 */
+
+
+#boardDelete table {width:600px}
+#boardDelete tbody th {width:100px;padding:5px;text-align:right;vertical-align: top}
+#boardDelete tbody td {width:620px;padding:5px}
+#boardDelete .btnSet {text-align:center}
+#boardDelete button{font-size: 15px;}
+#boardDelete .btnSet{float: right; }
+#boardDelete .btnSet a {text-align:center; text-decoration: none; font-size: 15px; color: black;}
+#boardDelete .btnSet :hover{text-align:center; text-decoration: none; font-size: 15px; color: white; background-color: black;}

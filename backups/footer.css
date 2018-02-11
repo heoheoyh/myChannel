@@ -1,0 +1,263 @@
+@font-face {
+	font-family: freesans;
+	src: url(font/FreeSans.otf);
+	src:url(font/FreeSans.ttf);
+
+}
+@font-face{
+	font-family: boldfree;
+	src: url(font/FreeSansBold.otf);
+	src: url(font/FreeSansBold.ttf);
+}
+
+body{
+
+	margin: 0px;
+}
+
+.footwrap{
+	width: 100%;
+	height: 300px;
+	text-align: center;	
+	background-color: black;
+
+}
+
+.footer{
+	
+	width: 1280px;
+	text-align: left;
+
+}
+
+
+.contact{
+
+}
+
+.final_foot{
+	display: inline-flex;
+	margin-left: 40px;
+	margin-top: 3%;
+}
+#ch_logo{
+	margin-left: 10%;
+}
+.contact_2{
+	margin-left: 70%;
+}
+
+#contact_title{
+	font-family: boldfree;
+	color: white;
+	font-size: 22px;
+}
+.text{
+	width: 150px;
+}
+
+.contact_text{
+	font-family: freesans;
+	color: white;
+	font-size: 13px;
+}
+
+.follow{
+	margin-left: 70%;
+}
+
+#follow_us{
+	font-family: boldfree;
+	
+	color: white;
+	font-size: 22px;
+}
+
+.icons{
+	display: inline-flex;
+}
+#icons01{
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/01_off.png');
+}
+#icons01:hover{
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/01_over.png');
+}
+#icons02{
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/02_off.png');
+}
+#icons02:hover{
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/02_over.png');
+}
+
+#icons03{
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/03_off.png');
+}
+#icons03:hover{
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/03_over.png');
+}
+#icons04{
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/04_off.png');
+}
+#icons04:hover{
+	width: 40px;
+	height: 40px;
+	background-image: url('icons/04_over.png');
+}
+
+
+
+@media all and (max-width: 1024px){
+
+	.footwrap{
+		width: 100%;
+		height: 100%;
+		text-align: center;	
+		background-color: black;
+
+	}
+
+	.footer{
+
+		width: 100%;
+		text-align: left;
+
+	}
+	.final_foot{
+		display: inline-flex;
+		margin-left: 10%;
+		margin-top: 3%;
+	}
+	.contact_2{
+		margin-left: 30%;
+	}
+	.follow{
+		margin-left: 30%;
+	}
+
+}
+@media all and (max-width: 640px){
+
+	.footwrap{
+		width: 100%;
+		height: 100%;
+		text-align: center;	
+		background-color: black;
+
+	}
+
+	.footer{
+
+		width: 100%;
+		text-align: left;
+
+	}
+	.final_foot{
+		margin-left: 0px;
+		display: block;
+		margin-top: 3%;
+		padding-top: 15%;
+		padding-bottom: 20%;
+	}
+
+
+	#ch_logo{
+		margin-left: 34%;
+	}
+	.contact_2{
+		margin-left: 30%;
+		text-align: center;
+		width: 150px;
+		margin-top: 15%;
+	}
+
+	
+	.follow{
+		margin-left: 0;
+		text-align: center;
+		margin-top: 15%;
+	}
+
+	#follow_us{
+		font-family: boldfree;
+		color: white;
+		font-size: 22px;
+	}
+
+
+}
+
+@media all and (max-width: 320px){
+
+	.footwrap{
+		width: 100%;
+		height: 100%;
+		text-align: center;	
+		background-color: black;
+
+	}
+
+	.footer{
+
+		width: 100%;
+		text-align: left;
+
+	}
+	.final_foot{
+		margin-left: -7%;
+		display: block;
+		margin-top: 3%;
+		padding-top: 15%;
+		padding-bottom: 20%;
+	}
+
+
+	#ch_logo{
+		margin-left: 34%;
+	}
+	.contact_2{
+		margin-left: 30%;
+		text-align: center;
+		width: 150px;
+		margin-top: 15%;
+	}
+
+	
+	.follow{
+		margin-left: 0;
+		text-align: center;
+		margin-top: 15%;
+	}
+
+	#follow_us{
+		font-family: boldfree;
+		color: white;
+		font-size: 22px;
+	}
+
+
+
+}
+
+
+
+
+
+
+

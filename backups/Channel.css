@@ -1,0 +1,23 @@
+body{
+	background-color: #e8e8e8;
+}
+@media all and (max-width: 1024px){
+	body{
+   margin: 0;
+ }
+
+}
+
+@media all and (max-width: 640px){
+  body{
+   margin: 0;
+
+ }
+
+}
+@media all and (max-width: 320px){
+	body{
+   margin: 0;
+ }
+
+}

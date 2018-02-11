@@ -1,0 +1,20 @@
+{
+  "name": "WebAppAdmin",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Materialize": "materialize#~0.97.3",
+    "OwlCarousel": "OwlFonk/OwlCarousel#~1.3.2"
+  }
+}
